@@ -21,6 +21,11 @@ const ContactExperience = () => {
         enableZoom={false}
         minPolarAngle={Math.PI / 5}
         maxPolarAngle={Math.PI / 2}
+        target={[0, 0, 0]}
+        autoRotate
+        autoRotateSpeed={2}
+        enableDamping
+        dampingFactor={0.05}
       />
 
       <group scale={[1, 1, 1]}>
